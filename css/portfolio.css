@@ -1,7 +1,8 @@
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .portfolio-item {
     width: calc((100% - 48px) / 3);
