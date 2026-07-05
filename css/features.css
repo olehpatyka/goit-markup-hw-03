@@ -9,6 +9,9 @@
     display: flex;
     gap: 24px;
 }
+.features-item {
+    max-width: 264px;
+}
 .features-text {
     color: #434455;
     line-height: 1.5;
