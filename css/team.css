@@ -2,16 +2,30 @@
     background-color: #f4f4fd;
 }
 
-.team-item {
-    background-color: white;
+.team-list {
+    display: flex;
+    gap: 24px;
 }
 
+.team-item {
+    background-color: white;
+    border-radius: 0 0 4px 4px;
+    width: calc((100% - 72px) / 4);
+}
+.team-img {
+    display: block;
+}
+.team-card-text {
+    padding: 32px 16px;
+}
 .team-name {
     font-weight: 500;
     font-size: 20px;
     text-align: center;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    width: 232px;
 }
 
 .team-role {
@@ -19,4 +33,5 @@
     text-align: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 232px;
 }

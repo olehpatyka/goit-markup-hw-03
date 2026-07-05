@@ -1,11 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #2e2f42;
     background-color: white;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
 ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 a {
@@ -18,12 +35,23 @@ a {
 }
 
 .logo {
+    display: block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
     line-height: 1.33333;
     letter-spacing: 0.03em;
+}
+.logo.light {
+    color: #f4f4fd;
+}
+.logo.dark {
+    color: #2e2f42;
+}
+
+.section {
+    padding: 120px 141px;
 }
 
 .section-title {
@@ -32,4 +60,24 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     line-height: 1.11111;
+    margin-bottom: 72px;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.sr-only {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    margin: -1px;
 }

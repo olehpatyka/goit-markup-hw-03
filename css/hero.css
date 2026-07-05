@@ -1,17 +1,22 @@
 .hero-section {
     background-color: #2e2f42;
+    padding: 188px 141px;
 }
 
 .main-title {
+    margin: 0 auto;
     font-weight: 700;
     font-size: 56px;
     text-align: center;
     color: white;
     line-height: 1.07143;
     letter-spacing: 0.02em;
+    max-width: 496px;
 }
 
 .main-btn {
+    display: block;
+    margin: 48px auto 0;
     font-size: 16px;
     font-weight: 500;
     background-color: #4d5ae5;
@@ -19,6 +24,9 @@
     cursor: pointer;
     line-height: 1.5;
     letter-spacing: 0.04em;
+
+    border-radius: 4px;
+    padding: 16px 32px;
 }
 
 .main-btn:hover,
